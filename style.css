@@ -1,0 +1,53 @@
+.a1{
+    border-radius: 10px;
+    border-style: dotted;
+    font-size: 600%;
+    height: 200px;
+    text-align: center;
+    padding-top: 7%;
+    background-color: black;
+    color: red;
+
+}
+.a2{
+    border-radius: 12px;
+    color: aqua;
+    background-color: black;
+    height: 50%;
+    width: 10%;
+    font-size: x-large;
+    border-style: hidden;
+    text-align: center;
+    text-decoration: underline;
+    
+
+}
+body{
+    margin:5%;
+    background-color:azure;
+}
+p{
+    color: black;
+    font-style: oblique;
+    text-align: center;
+    padding: 2%;
+    font-size:large;
+}
+.a5{
+    color: red;
+    padding: 5%;
+
+}
+.b2{
+    border: 5px solid;
+    background-color: black;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0%;
+    border-radius: 30px;
+}
+.b1{
+    padding-bottom: 12px;
+}

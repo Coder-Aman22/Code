@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-columns: 1fr 4fr 0.75fr;
+            grid-template-rows: 1fr 4fr 1fr;
+            height: 750px;
+            grid-gap: 10px;
+        }
+        .child{
+            background-color: rgb(219, 193, 45);
+            border-radius: 3px;
+            border:1px solid rgb(226, 176, 67)(251, 255, 0);
+            padding: 5px;
+        }
+        #child-1{
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        #child-2{
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        #child-3{
+            grid-row-start: -3;
+            grid-row-end: -2;
+        }
+        #child-5{
+            grid-column-start: -3;
+            grid-column-end: -1;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child" id="child-1">Nav</div>
+        <div class="child" id="child-2">Header</div>
+        <div class="child" id="child-3">Article</div>
+        <div class="child" id="child-4">Ads</div>
+        <div class="child" id="child-5">Footer</div>
+    </div>
+</body>
+</html>

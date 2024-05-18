@@ -1,0 +1,41 @@
+.a2{
+
+    margin: 1%;
+    border-radius: 12px; 
+    background-color: rgb(108, 245, 87);
+    /* width: 450px; */
+    /* height: 500px; */
+    padding-top: 12px;
+
+
+}
+.a4{
+    
+    
+    margin: 1%;
+    border-radius: 12px; 
+    background-color: rgb(108, 245, 87);
+    /* width: 450px; */
+    /* height: 250px; */
+    padding-top: 12px;
+}
+.a6{
+
+    margin: 1%;
+    border-radius: 12px; 
+    background-color: rgb(108, 245, 87);
+    /* width: 400px; */
+    /* height: 100px; */
+    padding-top: 12px;
+
+
+
+}
+.a1,.a3,.a5{
+    display: flex;
+    grid-gap: 10px;
+    text-align: center;
+    grid-auto-rows: minmax(375px, 100);
+    
+    
+}
